@@ -253,6 +253,12 @@ button:focus{
     color: #fff !important;
 }
 
+.slides-container li:nth-child(2) h1{
+    color: rgb(80, 94, 133);
+}
+.slides-container li:last-child h1{
+    color: #71507e;
+}
 
 .cover-slides .container{
 	height: 100%;
@@ -302,7 +308,7 @@ button:focus{
     border-color: #333;
 }
 
-.overlay-background {
+.overlay-background-1 {
     background: #738040;
     position: absolute;
     height: 100%;
@@ -311,6 +317,25 @@ button:focus{
     top: 0;
     opacity: 0.8;
 }
+.overlay-background-2 {
+    background: #405480;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+}
+.overlay-background-3 {
+    background: #71507e;
+    position: absolute;
+    height: 100%;
+    width: 20%;
+    right: 0;
+    top: 0;
+    opacity: 0.8;
+}
+
 
 .cover-slides h1{
 	font-family: 'Arbutus Slab', serif;
@@ -359,7 +384,7 @@ button:focus{
 .about-section-box{
 	padding: 70px 0px;
 }
-.about-section-box .col-lg-8{
+.about-section-box .bg-1{
     background: url(../images/sec02-banner01.jpg);
     background-position: center;
     background-repeat: no-repeat;
@@ -367,6 +392,25 @@ button:focus{
     text-align: right;
     padding:  12% 0 8%;
 }
+.about-section-box .bg-2{
+    background: url(../images/sec02-banner04.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    text-align: right;
+    padding:  12% 0 8%;
+}
+.about-section-box .p-r-15{
+    padding: 0 0 0 15px;
+    
+}
+.about-section-box .row{
+    padding:  15px 0 0;
+}
+.about-section-box .p-l-15{
+    padding: 0 15px 0 0;
+}
+
 .about-section-box .col-lg-4 img{
     width: 100%;
 }
@@ -377,17 +421,19 @@ button:focus{
 .inner-column h1{
 	font-family: 'Arbutus Slab', serif;
 	font-size: 30px;
-	color: #010101;
+    color: #010101;
 }
 .inner-column h1 span{
-	color: #d0a772;
+	font-size: 18px;
 }
 .inner-column h4{
 	font-size: 16px;
 	font-weight: 500;
 }
-.inner-column p{
-	font-size: 18px;
+.inner-column a{
+    font-size: 16px;
+    text-decoration: underline !important;
+    line-height: 50px;
 }
 .inner-column .btn-outline-new-white{
 	color: #d0a772;
@@ -402,18 +448,18 @@ button:focus{
 
 
 .qt-background{
-	background: url(../images/qt-bg.jpg) no-repeat;
+	background: url(../images/slider-01.jpg) no-repeat;
 	background-size: cover;
 	padding: 100px 0;
 	background-attachment: fixed;
 	background-position: center center;
 	position: relative;
 }
-.qt-background p {
+.qt-background h1 {
     font-size: 35px;
     font-weight: 300;
     line-height: 44px;
-    color: #fff;
+    color: #333;
 	font-family: 'Arbutus Slab', serif;
 	margin-bottom: 20px;
 }
@@ -422,6 +468,20 @@ button:focus{
     color: #fff;
     font-size: 20px;  
 	font-weight: 500;	
+}
+.qt-box img{
+    width: 100%;
+}
+.qt-box p{
+    width: 100%;
+    font-family: 'Noto Sans KR', sans-serif;
+    font-weight: bold;
+    font-size: 20px;
+    font-family: 'Jeju Myeongjo';
+}
+.qt-box .inner-column p:last-child{
+    font-weight: 300;
+    font-size: 15px;
 }
 
 /*------------------------------------------------------------------

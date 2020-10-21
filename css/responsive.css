@@ -44,10 +44,58 @@
 		box-shadow: none;
 	}
 	.cover-slides h1{
-		font-size: 22px;
+		font-size: 60px;
+		line-height: 70px !important;
 	}
 	.cover-slides p {
 		font-size: 14px;
+	}
+	.top-navbar .navbar{
+		padding: 0px 0px;
+	}
+	.btn{
+		text-transform: uppercase;
+		padding: 10px 20px;
+		margin: 20px 0 30px;
+	}
+	.about-section-box .p-r-15 {
+		padding: 0 0 0 0;
+	}
+	.about-section-box .p-l-15 {
+		padding: 0 0 0 0;
+	}
+	.about-section-box .row {
+		padding: 0 0 0;
+		display: flex;
+		flex-direction: column-reverse;
+	}
+	.about-section-box .row .col-md-4 img{
+		display: none;
+	}
+	.main-banner{
+		width: 100% !important;
+		height: auto !important;
+		top: 0px !important;
+		left: 0px !important;
+		box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
+	}
+	.qt-box .col-lg-4{
+		max-width: 100%;
+		margin: 10px 0;
+	}
+	.qt-box .inner-column{
+		margin: 0;
+	}
+	.customer-reviews-box .pt-3{
+		width: 75%;
+		font-size: 18px !important;
+		margin: 0 auto !important;
+	}
+	.footer-area img{
+		width: 20%;
+	}
+	.footer-area p{
+		text-align: right;
 	}
 	.slides-navigation a{
 		height: 42px;

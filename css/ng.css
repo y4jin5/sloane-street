@@ -112,8 +112,6 @@ a {
     outline: none;
 }
 
-a:hover{color: inherit;}
-
 a,
 .btn {
     text-decoration: none !important;
@@ -216,7 +214,7 @@ button:focus{
 	color: #ffffff;
 }
 .navbar-light .navbar-toggler:hover{
-	background: #508223;
+	background: #cfa671;
 }
 
 .top-navbar .container-fluid{
@@ -340,8 +338,8 @@ button:focus{
 
 
 .cover-slides h1{
-    font-family: 'Aver Regular';
-    font-size: 90px;
+	font-family: 'Arbutus Slab', serif;
+    font-size: 80px;
     color: #508223;
     text-align: left;
     font-weight: lighter;
@@ -385,7 +383,7 @@ button:focus{
 
 .about-section-box{
     padding: 70px 0px;
-
+    font-family: 'Jeju Myeongjo';
 }
 .about-section-box .bg-1{
     background: url(../images/sec02-banner01.jpg);
@@ -421,14 +419,13 @@ button:focus{
     width: 85%;
     margin: 0 auto;
 }
-.about-section-box .inner-column h1{
+.inner-column h1{
+
 	font-size: 30px;
     color: #010101;
-    font-family: 'Jeju Myeongjo';
 }
 .inner-column h1 span{
     font-size: 18px;
-    
 }
 .inner-column h4{
 	font-size: 16px;
@@ -478,16 +475,9 @@ button:focus{
     margin: 0 auto;
 }
 .qt-box .col-lg-4{
-    transition: ease-in-out 0.5s;
+    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
     max-width: 32%;
     margin: 0 auto;
-    position: relative;
-    top: 0;
-}
-.qt-box .col-lg-4:hover{
-    box-shadow: 5px 5px 10px rgba(0,0,0,.2);
-    top: -5px;
-
 }
 .qt-box p{
     width: 90%;
@@ -522,9 +512,9 @@ button:focus{
 	margin-bottom: 50px;
 }
 .heading-title h2{
-	color: #333;
-	font-size: 30px;
-	font-family: 'Aver', serif;
+	color: #010101;
+	font-size: 28px;
+	font-family: 'Arbutus Slab', serif;
 }
 .heading-title p{
 	font-size: 18px;
@@ -553,16 +543,13 @@ button:focus{
 }
 
 .filter-button-group button.active {
-    background: #508223;
+    background: #cfa671;
     color: #fff;
     box-shadow: 2px 20px 45px 5px rgba(0,0,0,.2);
 }
 
 .gallery-single{
-	margin: 10px 0px;
-}
-.gallery-single img{
-    width: 100%;
+	margin: 30px 0px;
 }
 
 .gallery-single {
@@ -578,7 +565,7 @@ button:focus{
     bottom: -100%;
     right: 0;
     height: 100%;
-    background: rgba(0, 0, 0, 0.2);
+    background: rgba(207, 166, 113, 0.9);
     padding: 12px 12px;
     -webkit-transition: all .3s ease;
     transition: all .3s ease;
@@ -587,12 +574,12 @@ button:focus{
 	color: #ffffff;
 	font-size: 24px;
 	font-weight: 500;
-	font-family: 'Jeju Myeongjo', serif;
+	font-family: 'Arbutus Slab', serif;
 }
 .why-text p{
 	color: #ffffff;
 	font-size: 18px;
-	border-bottom: 1px solid #fff;
+	border-bottom: 1px dashed #010101;
 	margin: 0px;
 	padding-bottom: 15px;
 	margin-top: 15px;
@@ -602,9 +589,6 @@ button:focus{
 	font-size: 28px;
 	font-weight: 600;
 	color: #ffffff;
-}
-.why-text a{
-    color: #fff;
 }
 
 .gallery-single:hover .why-text{
@@ -640,12 +624,13 @@ button:focus{
 .customer-reviews-box{
 	padding: 70px 0px;
 }
-.customer-reviews-box .pt-3{
-    font-family: 'jejumyeongjo';
-    font-size: 18px;
-    line-height: 30px;
-    color: #333;
+.customer-reviews-box .carousel-inner>div{
+    background: url(../images/review.png);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
 }
+
 .carousel-inner .carousel-item .img-box{
 	width: 135px;
 	height: 135px;
@@ -659,9 +644,7 @@ button:focus{
 .carousel-indicators{
 	top: 320px;
 }
-.text-dark{
-    color: rgb(128, 128, 128) !important;
-}
+
 .text-warning{
 	color: #d0a772 !important;
 	font-size: 24px;
@@ -683,13 +666,13 @@ button:focus{
 }
 
 #reviews .carousel-control-prev{
-	background: rgb(133, 133, 133);
+	background: #d0a772;
 	color: #ffffff;
 	display: block;
 	position: absolute;
 	width: 8%;
 	height: 50px;
-	top: 30%;
+	top: 50%;
 	font-size: 28px;
 	opacity: 1;
 }
@@ -699,13 +682,13 @@ button:focus{
 }
 
 #reviews .carousel-control-next{
-	background: rgb(133, 133, 133);
+	background: #d0a772;
 	color: #ffffff;
 	display: block;
 	position: absolute;
 	width: 8%;
 	height: 50px;
-	top: 30%;
+	top: 50%;
 	font-size: 28px;
 	opacity: 1;
 }
@@ -768,9 +751,10 @@ button:focus{
 	padding-bottom: 0px;
 }
 .bg-f{
+	background-image: url("../images/footer-bg.jpg");
 	background-attachment: scroll;
 	background-clip: initial;
-	background-color: 5e5e5e;
+	background-color: rgba(0, 0, 0, 0);
 	background-origin: initial;
 	background-position: center center;
 	background-repeat: no-repeat;
@@ -788,16 +772,7 @@ button:focus{
     z-index: 1;
 	opacity: 0.8;
 }
-.sns{
-    display: flex;
-}
-.sns img{
-    position: relative;
-    right: 0;
-}
-.footer-area .col-lg-1 img{
-    width: 100%;
-}
+
 .footer-area .container{
 	position: relative;
 	z-index: 1;
@@ -891,7 +866,7 @@ button:focus{
 	background-color: #010101;
 	border-top: 1px dashed rgba(207, 166, 113);
 	padding: 30px 0;
-    z-index: 1;
+	z-index: 1;
 }
 
 .copyright .company-name{
@@ -1481,7 +1456,7 @@ blockquote {
     height: 32px;
     text-align: center;
     line-height: 30px;
-    background: #508223;
+    background: #d0a772;
     color: #ffffff;
     cursor: pointer;
     border: 0;

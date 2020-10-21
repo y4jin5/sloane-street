@@ -44,19 +44,24 @@
 		box-shadow: none;
 	}
 	.cover-slides h1{
-		font-size: 60px;
-		line-height: 70px !important;
+		padding: 20px 0 0;
+		font-size: 40px;
+		line-height: 50px !important;
 	}
 	.cover-slides p {
-		font-size: 14px;
+		font-size: 12px;
+	}
+	.cover-slides{
+		height: 95vh;
 	}
 	.top-navbar .navbar{
 		padding: 0px 0px;
 	}
 	.btn{
 		text-transform: uppercase;
-		padding: 10px 20px;
-		margin: 20px 0 30px;
+		padding: 5px 10px;
+		margin: 10px 0 15px;
+		font-size: 12px;
 	}
 	.about-section-box .p-r-15 {
 		padding: 0 0 0 0;
@@ -91,8 +96,11 @@
 		font-size: 18px !important;
 		margin: 0 auto !important;
 	}
-	.footer-area img{
+	.footer-area .col-lg-4 img{
 		width: 20%;
+	}
+	.footer-area .col-lg-4 p{
+		float: right;
 	}
 	.footer-area p{
 		text-align: right;

@@ -182,4 +182,9 @@
 	.cover-slides .row .col-md-6:first-child{
 		top: 250px;
 	}
+	.cover-slides .row{
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 20px 0 0;
+	}
 }

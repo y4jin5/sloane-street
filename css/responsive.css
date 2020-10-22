@@ -50,12 +50,30 @@
 	}
 	.cover-slides p {
 		font-size: 12px;
+		line-height: 18px;
 	}
 	.cover-slides{
 		height: 95vh;
 	}
+	/* .overlay-background-1 {
+		opacity: 0;
+	}
+	.overlay-background-2 {
+		opacity: 0;
+	}
+	.overlay-background-3 {
+		opacity: 0;
+	} */
 	.top-navbar .navbar{
 		padding: 0px 0px;
+	}
+	.cover-slides .row{
+		display: flex;
+		flex-direction: column-reverse;
+		padding: 50px 0 0;
+	}
+	.cover-slides .row .col-md-6:first-child{
+		top: 350px;
 	}
 	.btn{
 		text-transform: uppercase;

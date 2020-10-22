@@ -178,3 +178,8 @@
 		margin-top: 0px;
 	}
 }
+@media(max-width: 430px){
+	.cover-slides .row .col-md-6:first-child{
+		top: 300px;
+	}
+}

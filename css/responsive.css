@@ -44,19 +44,24 @@
 		box-shadow: none;
 	}
 	.cover-slides h1{
-		font-size: 60px;
-		line-height: 70px !important;
+		padding: 20px 0 0;
+		font-size: 40px;
+		line-height: 40px !important;
 	}
 	.cover-slides p {
-		font-size: 14px;
+		font-size: 12px;
+	}
+	.cover-slides{
+		height: 95vh;
 	}
 	.top-navbar .navbar{
 		padding: 0px 0px;
 	}
 	.btn{
 		text-transform: uppercase;
-		padding: 10px 20px;
-		margin: 20px 0 30px;
+		padding: 5px 10px;
+		margin: 10px 0 15px;
+		font-size: 12px;
 	}
 	.about-section-box .p-r-15 {
 		padding: 0 0 0 0;
@@ -79,6 +84,19 @@
 		left: 0px !important;
 		box-shadow: 2px 5px 6px rgba(0,0,0,0.2);
 	}
+	.menu-box .col-lg-4{
+		width: 50%;
+		padding: 0 5px;
+	}
+	.why-text h4{
+		font-size: 18px;
+	}
+	.why-text p{
+		font-size: 16px;
+	}
+	.why-text a{
+		font-size: 14px;
+	}
 	.qt-box .col-lg-4{
 		max-width: 100%;
 		margin: 10px 0;
@@ -91,8 +109,11 @@
 		font-size: 18px !important;
 		margin: 0 auto !important;
 	}
-	.footer-area img{
-		width: 20%;
+	.footer-area .col-lg-4 img{
+		width: 30%;
+	}
+	.footer-area .col-lg-4 p{
+		float: right;
 	}
 	.footer-area p{
 		text-align: right;
@@ -127,7 +148,10 @@
 	.blog-sidebar{
 		margin-top: 50px;
 	}
-	
+	.gallery-box .col-lg-2{
+		width: 33.33%;
+		padding: 0 5px;
+	}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	

@@ -47,6 +47,7 @@
 		padding: 20px 0 0;
 		font-size: 40px;
 		line-height: 40px !important;
+		margin: 110% 0 0;
 	}
 	.cover-slides p {
 		font-size: 12px;
@@ -70,11 +71,11 @@
 	.cover-slides .row{
 		display: flex;
 		flex-direction: column-reverse;
-		padding: 50px 0 0;
+		padding: 30px 0 0;
 	}
-	.cover-slides .row .col-md-6:first-child{
+	/* .cover-slides .row .col-md-6:first-child{
 		top: 350px;
-	}
+	} */
 	.btn{
 		text-transform: uppercase;
 		padding: 5px 10px;
@@ -176,15 +177,5 @@
 	.why-text p{
 		margin-bottom: 0px;
 		margin-top: 0px;
-	}
-}
-@media(max-width: 430px){
-	.cover-slides .row .col-md-6:first-child{
-		top: 255px;
-	}
-	.cover-slides .row{
-		display: flex;
-		flex-direction: column-reverse;
-		padding: 20px 0 0;
 	}
 }

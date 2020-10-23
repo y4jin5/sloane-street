@@ -424,7 +424,7 @@ button:focus{
 .about-section-box .inner-column h1{
 	font-size: 30px;
     color: #010101;
-    font-family: 'Jeju Myeongjo';
+    font-family: 'Jeju Myeongjo', serif;
 }
 .inner-column h1 span{
     font-size: 18px;
@@ -494,7 +494,7 @@ button:focus{
     font-family: 'Noto Sans KR', sans-serif;
     font-weight: bold;
     font-size: 20px;
-    font-family: 'Jeju Myeongjo';
+    font-family: 'Jeju Myeongjo', serif;
     margin: 0 auto;
     line-height: 25px;
     padding: 20px 0 0;
@@ -622,7 +622,7 @@ button:focus{
 .gallery-box{
 	padding: 70px 0px;
 }
-.gallery-box .col.lg-2{
+.gallery-box .col-lg-2{
     padding: 0 15px;
 }
 .tz-gallery{
@@ -647,7 +647,7 @@ button:focus{
 	padding: 70px 0px;
 }
 .customer-reviews-box .pt-3{
-    font-family: 'jejumyeongjo';
+    font-family: 'Jeju Myeongjo', serif;
     font-size: 18px;
     line-height: 30px;
     color: #333;
@@ -837,7 +837,7 @@ button:focus{
 	color: #d0a772;
 }
 .footer-area p a{
-	font-size: 18px;
+	font-size: 14px;
 	color: #ffffff;
 }
 .footer-area p a:hover{

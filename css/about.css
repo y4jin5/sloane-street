@@ -1,0 +1,58 @@
+.all-page-title img{
+    width: 50%;
+}
+.about-section-box .col-lg-12 img{
+    width: 100%;
+}
+.text-area{
+    margin: 10% 0 0;
+}
+.about-section-box ul>li{
+    float: left;
+    position: relative;
+    width: 33.33%;
+    text-align: center;
+}
+.about-section-box ul>li>strong{
+    font-size: 58px;
+    font-weight: 500;
+}
+.about-section-box ul>li::after{
+    content: "";
+    display: block;
+    position: absolute;
+    top: 46px;
+    right: 0;
+    width: 1px;
+    height: 60px;
+    background-color: #e5e5e5;
+}
+.about-section-box ul>li:last-child::after{
+    display: none;
+}
+.bestseller ul>li img{
+    width: 100%;
+}
+.bestseller ul>li{
+    width: 33.33%;
+    padding: 20px 35px;
+    float: left;
+}
+.bestseller{
+    padding: 5% 0;
+}
+.subrow{
+    width: 100%;
+    margin: 0 auto;
+    font-family: 'Jeju Myeongjo', serif;
+    text-align: center;
+}
+.bestseller h1{
+    font-size: 30px;
+    font-weight: bold;
+}
+.bestseller h4{
+    font-weight: bold;
+    font-size: 18px;
+    padding: 20px 0;
+}

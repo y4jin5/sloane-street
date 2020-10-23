@@ -915,8 +915,8 @@ button:focus{
 -------------------------------------------------------------------*/
 
 .page-breadcrumb {
-    padding: 250px 0 150px;
-    background: url(../images/all-bg.jpg) no-repeat;
+    padding: 250px 0 200px;
+    background: url(../images/slider-01.jpg) no-repeat;
     background-attachment: fixed;
     background-size: cover;
     background-position: 0 0;
@@ -935,7 +935,7 @@ button:focus{
 	top: 0;
 	width: 100%;
 	z-index: 1;
-	opacity: 0.8;	
+	opacity: 0.1;	
 }
 .all-page-title h1{
 	font-size: 38px;

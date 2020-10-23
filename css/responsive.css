@@ -91,7 +91,7 @@
 	.about-section-box .row {
 		padding: 0 0 0;
 		display: flex;
-		flex-direction: column-reverse;
+		flex-direction: column;
 	}
 	.about-section-box .row .col-md-4 img{
 		display: none;
@@ -170,6 +170,19 @@
 	.gallery-box .col-lg-2{
 		width: 33.33%;
 		padding: 0 5px;
+	}
+
+
+	.bestseller ul>li{
+		width: 100% !important;
+		padding: 20px 35px;
+		clear: both;
+	}
+	.about-section-box ul>li{
+		width: 100% !important;
+	}
+	.about-section-box ul>li::after{
+		display: none !important;
 	}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {

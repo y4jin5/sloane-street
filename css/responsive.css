@@ -71,7 +71,6 @@
 	.cover-slides .row{
 		display: flex;
 		flex-direction: column-reverse;
-		padding: 30px 0 0;
 	}
 	/* .cover-slides .row .col-md-6:first-child{
 		top: 350px;

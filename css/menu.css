@@ -1,0 +1,126 @@
+.qt-box p{
+    text-align: center ;
+    font-size: 30px;
+    line-height: 40px;
+}
+.qt-background{
+    background: url(../images/Van_Gogh_-_Starry_Night_2.jpg);
+    background-attachment: fixed;
+    background-size: cover;
+    background-position: center;
+}
+.qt-background::before{
+    background: #010101;
+    content: "";
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
+    z-index: 0;
+    opacity: 0.3;
+}
+.big{
+    font-size: 50px !important;
+    color: #fff !important;
+}
+.lead{
+    color: #fff;
+}
+.all-page-title h1{
+    font-family: 'Aver';
+}
+.eddition .gogh1{
+    width: 100%;
+    height: 500px;
+    background: url(../images/gogh-01.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 135%;
+    overflow: hidden;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+.eddition .gogh2{
+    width: 100%;
+    height: 500px;
+    background: url(../images/gogh-02.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: 135%;
+    overflow: hidden;
+    transition:all 0.5s ease-in-out;
+    -webkit-transition:all 0.5s ease-in-out;
+}
+.eddition .col-sm-6{
+    padding-left: 0;
+    padding-right: 0;
+    margin: 30px 0 0 ;
+    position: relative;
+    overflow: hidden;
+    max-width: 48%;
+}
+.gogh-img{
+    padding: 50px 0 0;
+    width: 600px;
+}
+.eddition .row>div{
+    float: left;
+}
+.space20{
+    width: 20px;
+}
+.gogo:hover .overlay{
+    opacity: 1;
+}
+.gogo:hover .gogh1{
+    background-size: 140%;
+}
+.gogo:hover .gogh2{
+    background-size: 140%;
+}
+.text-area{
+    margin: 0 auto;
+}
+/* .eddition{
+    overflow: hidden !important;
+} */
+.overlay {
+    position: absolute;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 100%;
+    width: 100%;
+    opacity: 0;
+    padding-right: -10px;
+    padding-left: -10px;
+    transition: .5s ease;
+    background-color: rgba(0,0,0,0.2);
+
+  }
+  .text{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: 'Jeju Myeongjo', serif;
+  }
+  .text h1{
+    color: #fff;
+  }
+  .text p{
+    color: #fff;
+  }
+  /* .eddition .col-md-6:hover .overlay {
+    opacity: 1;
+  } */
+
+  .customer-reviews-box{
+      padding: 10% 0;
+      height: 700px;
+  }

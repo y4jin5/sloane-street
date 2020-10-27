@@ -1,3 +1,4 @@
+
 .all-page-title img{
     width: 50%;
 }
@@ -55,4 +56,9 @@
     font-weight: bold;
     font-size: 18px;
     padding: 20px 0;
+    font-family: 'Jeju Myeongjo', serif;
+}
+
+.about-section-box .inner-column>p,.bestseller ul>li>p{
+    text-align: justify;
 }

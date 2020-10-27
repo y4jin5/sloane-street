@@ -95,6 +95,9 @@
 	.about-section-box .row .col-md-4 img{
 		display: none;
 	}
+	.eddition .col-sm-6{
+		max-width: 100% !important;
+	}
 	.main-banner{
 		width: 100% !important;
 		height: auto !important;

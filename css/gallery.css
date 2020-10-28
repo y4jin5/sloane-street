@@ -1,0 +1,46 @@
+#container {width: 100%; margin: 0 auto;}
+#container #input-form {text-align: center;}
+#user-table {margin: 0 auto; text-align: center;}
+#input-form {margin-top: 10px; margin-bottom: 10px;}
+
+#user-table {border-collapse: collapse;}
+#user-table > thead > tr { background-color: #333; color:#fff; }
+#user-table > thead > tr > th { padding: 8px; width: 200px; }
+#user-table > tbody > tr > td { border-bottom: 1px solid #ccc; padding:8px; }
+
+#container #input-form>p:first-child{
+    width: 50%;
+    text-align: left;
+}
+#input-form{
+    display: flex;
+    margin: 0 auto;
+    width: 45%;
+}
+#container #input-form>p:nth-child(2){
+    width: 50%;
+    text-align: right;
+}
+#user-table > thead > tr > th:first-child{
+    width: 70px;
+}
+#user-table > thead > tr > th:nth-child(3){
+    width: 200px;
+}
+#user-table > tbody > tr > td:nth-child(3){
+    font-size: 12px;
+    font-weight: bold;
+    width: 200px;
+    word-break: keep-all;
+}
+#user-table > tbody > tr > td:nth-child(5){
+    font-weight: bold;
+    font-size: 14px;
+}
+#user-table > tbody > tr:nth-child(2n){
+    background-color: rgb(235, 235, 235);
+}
+#user-table > tbody > tr:hover{
+    background-color: rgb(225, 225, 225);
+    mix-blend-mode: multiply;
+}

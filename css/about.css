@@ -1,6 +1,10 @@
 
 .all-page-title img{
-    width: 50%;
+    width: 30%;
+}
+.page-breadcrumb .col-lg-12{
+
+    background: none;
 }
 .about-section-box .col-lg-12 img{
     width: 100%;

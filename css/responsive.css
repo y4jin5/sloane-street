@@ -186,6 +186,17 @@
 	.about-section-box ul>li::after{
 		display: none !important;
 	}
+
+
+	#input-form{
+		width: 100% !important;
+	}
+	#user-table>thead>tr>th:first-child{
+		display: none;
+	}
+	#user-table>tbody>tr>td:first-child{
+		display: none;
+	}
 }
 @media only screen and (min-width: 280px) and (max-width: 599px) {
 	

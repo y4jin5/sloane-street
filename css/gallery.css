@@ -15,7 +15,7 @@
 #input-form{
     display: flex;
     margin: 0 auto;
-    width: 45%;
+    width: 100%;
 }
 #container #input-form>p:nth-child(2){
     width: 50%;
@@ -33,14 +33,51 @@
     width: 200px;
     word-break: keep-all;
 }
+#user-table > tbody > tr{
+    cursor: pointer;
+}
+#user-table > tbody > tr > td{
+    word-break: keep-all;
+}
 #user-table > tbody > tr > td:nth-child(5){
     font-weight: bold;
     font-size: 14px;
 }
 #user-table > tbody > tr:nth-child(2n){
-    background-color: rgb(235, 235, 235);
+    background-color: rgb(245, 245, 245);
 }
 #user-table > tbody > tr:hover{
     background-color: rgb(225, 225, 225);
     mix-blend-mode: multiply;
+}
+a{
+    cursor: pointer;
+}
+#pagination a {
+    display:inline-block;
+    margin-right:5px;
+    cursor:pointer;
+
+    }
+.next{
+    margin: 20px;
+    padding: 0 10px;
+    background-color: #eee;
+    font-weight: bold;
+    font-size: 16px;
+}
+.prev{
+    margin: 20px;
+    padding: 0 10px;
+    background-color: #eee;
+    font-weight: bold;
+    font-size: 16px;
+}
+.pagination-link{
+    font-weight: bold;
+    padding: 0 5px;
+}
+
+.active{
+    color: #999;
 }

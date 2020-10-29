@@ -90,123 +90,131 @@
 					</div>
 				</div>
 			</div>
-			<div class="row">
-				<div class="col-lg-12" id="map" style="width:500px;height:400px;">
+			<div class="container-fluid" style="width: 80%;">
+				<div class="row">
+					<div class="col-lg-6" id="map" style="width:500px;height:550px; margin: 3.3% 0 0;">
+
+					</div>
+
+					<div class="col-lg-6">
+						<div id="container">
+							<div id="input-form">
+								<p>지역 명 : <input type="text" id="keyword" /></p>
+								<p>결과 : <span class="count"></span></p>
+							</div>
+
+							<table id="user-table">
+								<thead>
+									<tr>
+										<th>번호</th>
+										<th>지점 명</th>
+										<th>주소</th>
+										<th>영업시간</th>
+										<th>전화</th>
+									</tr>
+								</thead>
+								<tbody>
+									<tr onclick="mark1()">
+										<td>1</td>
+										<td>슬론스트리트 강남점</td>
+										<td>서울 서초구 강남대로 405 통영빌딩 8층</td>
+										<td>09:00 ~ 21:00</td>
+										<td>02.3478.0008</td>
+									</tr>
+									<tr onclick="mark2()">
+										<td>2</td>
+										<td>슬론스트리트 종로점</td>
+										<td>서울 종로구 인사동길 12 대일빌딩 7층, 15층</td>
+										<td>09:30 ~ 21:30</td>
+										<td>02.723.0008</td>
+									</tr>
+									<tr onclick="mark3()">
+										<td>3</td>
+										<td>슬론스트리트 신촌점</td>
+										<td>서울 마포구 서강로 144 동인빌딩 7층</td>
+										<td>09:30 ~ 22:00</td>
+										<td>02.714.0008</td>
+									</tr>
+									<tr onclick="mark4()">
+										<td>4</td>
+										<td>슬론스트리트 구로점</td>
+										<td>서울 구로구 경인로 557 삼영빌딩 4층 ((주)하이미디어멀티캠퍼스)</td>
+										<td>10:00 ~ 22:30</td>
+										<td>02.3667.0008</td>
+									</tr>
+									<tr onclick="mark5()">
+										<td>5</td>
+										<td>슬론스트리트 천호점</td>
+										<td>서울 강동구 천호대로 1027 동원천호빌딩 5층</td>
+										<td>09:30 ~ 21:00</td>
+										<td>02.479.0009</td>
+									</tr>
+									<tr onclick="mark6()">
+										<td>6</td>
+										<td>슬론스트리트 안산점</td>
+										<td>경기 안산시 단원구 고잔2길 41 신양프라자 4층</td>
+										<td>09:00 ~ 20:30</td>
+										<td>031.487.1414</td>
+									</tr>
+									<tr onclick="mark7()">
+										<td>7</td>
+										<td>슬론스트리트 안양점</td>
+										<td>경기 안양시 만안구 안양동 676-6 금강제화빌딩 3층/4층</td>
+										<td>09:00 ~ 21:00</td>
+										<td>031.447.1414</td>
+									</tr>
+									<tr onclick="mark8()">
+										<td>8</td>
+										<td>슬론스트리트 성남점</td>
+										<td>경기 성남시 중원구 성남대로 1133 메트로칸 빌딩 5층</td>
+										<td>09:00 ~ 22:00</td>
+										<td>031.736.0008</td>
+									</tr>
+									<tr onclick="mark9()">
+										<td>9</td>
+										<td>슬론스트리트 수원점</td>
+										<td>경기 수원시 팔달구 정조로788번길 18</td>
+										<td>09:30 ~ 21:30</td>
+										<td>031.247.1414</td>
+									</tr>
+									<tr onclick="mark10()">
+										<td>10</td>
+										<td>슬론스트리트 구리점</td>
+										<td>경기 구리시 건원대로 44 태영빌딩 3층 305~307호</td>
+										<td>09:30 ~ 22:00</td>
+										<td>031.567.0003</td>
+									</tr>
+									<tr onclick="mark11()">
+										<td>11</td>
+										<td>슬론스트리트 일산점</td>
+										<td>경기 고양시 일산동구 장항동 846 센트럴프라자빌딩 4층</td>
+										<td>09:00 ~ 21:00</td>
+										<td>031.901.2991</td>
+									</tr>
+									<tr onclick="mark12()">
+										<td>12</td>
+										<td>슬론스트리트 김포점</td>
+										<td>경기 김포시 사우중로 48 드림월드프라자 7층</td>
+										<td>09:30 ~ 21:30</td>
+										<td>031.8049.6000</td>
+									</tr>
+									<tr onclick="mark13()">
+										<td>13</td>
+										<td>슬론스트리트 강릉점</td>
+										<td>강원도 강릉시 경강로 2106, 9층(임당동, 경일플라자)</td>
+										<td>09:00 ~ 21:00</td>
+										<td>033.822.2323</td>
+									</tr>
+								</tbody>
+							</table>
+							<ul class="pagination">
+    
+							</ul>
+						</div>
+					</div>
 
 				</div>
 			</div>
-			<div id="container">
-				<div id="input-form">
-					<p>지역 명 : <input type="text" id="keyword" /></p>
-					<p>결과 : <span class="count"></span></p>
-				</div>
-
-				<table id="user-table">
-					<thead>
-						<tr>
-							<th>번호</th>
-							<th>지점 명</th>
-							<th>주소</th>
-							<th>영업시간</th>
-							<th>전화</th>
-						</tr>
-					</thead>
-					<tbody>
-						<tr>
-							<td>1</td>
-							<td><a onclick="panTo()" style="cursor: pointer;">슬론스트리트 강남점</a></td>
-							<td>서울 서초구 강남대로 405 통영빌딩 8층</td>
-							<td>09:00 ~ 21:00</td>
-							<td>02.3478.0008</td>
-						</tr>
-						<tr>
-							<td>2</td>
-							<td><a onclick="panTo()">슬론스트리트 종로점</a></td>
-							<td>서울 종로구 인사동길 12 대일빌딩 7층, 15층</td>
-							<td>09:30 ~ 21:30</td>
-							<td>02.723.0008</td>
-						</tr>
-						<tr>
-							<td>3</td>
-							<td><a href="#">슬론스트리트 신촌점</a></td>
-							<td>서울 마포구 서강로 144 동인빌딩 7층</td>
-							<td>09:30 ~ 22:00</td>
-							<td>02.714.0008</td>
-						</tr>
-						<tr>
-							<td>4</td>
-							<td><a href="#">슬론스트리트 구로점</a></td>
-							<td>서울 구로구 경인로 557 삼영빌딩 4층 ((주)하이미디어멀티캠퍼스)</td>
-							<td>10:00 ~ 22:30</td>
-							<td>02.3667.0008</td>
-						</tr>
-						<tr>
-							<td>5</td>
-							<td><a href="#">슬론스트리트 천호점</a></td>
-							<td>서울 강동구 천호대로 1027 동원천호빌딩 5층</td>
-							<td>09:30 ~ 21:00</td>
-							<td>02.479.0009</td>
-						</tr>
-						<tr>
-							<td>6</td>
-							<td><a href="#">슬론스트리트 안산점</a></td>
-							<td>경기 안산시 단원구 고잔2길 41 신양프라자 4층</td>
-							<td>09:00 ~ 20:30</td>
-							<td>031.487.1414</td>
-						</tr>
-						<tr>
-							<td>7</td>
-							<td><a href="#">슬론스트리트 안양점</a></td>
-							<td>경기 안양시 만안구 안양동 676-6 금강제화빌딩 3층/4층</td>
-							<td>09:00 ~ 21:00</td>
-							<td>031.447.1414</td>
-						</tr>
-						<tr>
-							<td>8</td>
-							<td><a href="#">슬론스트리트 성남점</td>
-							<td>경기 성남시 중원구 성남대로 1133 메트로칸 빌딩 5층</td>
-							<td>09:00 ~ 22:00</td>
-							<td>031.736.0008</td>
-						</tr>
-						<tr>
-							<td>9</td>
-							<td><a href="#">슬론스트리트 수원점</td>
-							<td>경기 수원시 팔달구 정조로788번길 18</td>
-							<td>09:30 ~ 21:30</td>
-							<td>031.247.1414</td>
-						</tr>
-						<tr>
-							<td>10</td>
-							<td><a href="#">슬론스트리트 구리점</td>
-							<td>경기 구리시 건원대로 44 태영빌딩 3층 305~307호</td>
-							<td>09:30 ~ 22:00</td>
-							<td>031.567.0003</td>
-						</tr>
-						<tr>
-							<td>11</td>
-							<td><a href="#">슬론스트리트 일산점</td>
-							<td>경기 고양시 일산동구 장항동 846 센트럴프라자빌딩 4층</td>
-							<td>09:00 ~ 21:00</td>
-							<td>031.901.2991</td>
-						</tr>
-						<tr>
-							<td>12</td>
-							<td><a href="#">슬론스트리트 김포점</td>
-							<td>경기 김포시 사우중로 48 드림월드프라자 7층</td>
-							<td>09:30 ~ 21:30</td>
-							<td>031.8049.6000</td>
-						</tr>
-						<tr>
-							<td>13</td>
-							<td><a href="#">슬론스트리트 강릉점</td>
-							<td>강원도 강릉시 경강로 2106, 9층(임당동, 경일플라자)</td>
-							<td>09:00 ~ 21:00</td>
-							<td>033.822.2323</td>
-						</tr>
-					</tbody>
-				</table>
-			</div>
-
 		</div>
 	</div>
 	<!-- End Gallery -->
@@ -283,92 +291,85 @@
 	<script src="js/form-validator.min.js"></script>
 	<script src="js/contact-form-script.js"></script>
 	<script src="js/custom.js"></script>
-	<script type="text/javascript" src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=	3cfc6f738146f09411018eb48412e830"></script>
+	<script type="text/javascript"
+		src="https://dapi.kakao.com/v2/maps/sdk.js?appkey=	3cfc6f738146f09411018eb48412e830"></script>
+	<script src="js/map.js">
+
+	</script>
 	<script>
-		$("#keyword").keyup(function () {
-			var k = $(this).val();
-			$("#user-table > tbody > tr").hide();
-			var temp = $("#user-table > tbody > tr > td:nth-child(5n+2):contains('" + k + "')");
-
-			$(temp).parent().show();
-			$('.count').text(temp.length);
+		function pagination(){
+		var req_num_row=8;
+		var $tr=jQuery('tbody tr');
+		var total_num_row=$tr.length;
+		var num_pages=0;
+		if(total_num_row % req_num_row ==0){
+			num_pages=total_num_row / req_num_row;
+		}
+		if(total_num_row % req_num_row >=1){
+			num_pages=total_num_row / req_num_row;
+			num_pages++;
+			num_pages=Math.floor(num_pages++);
+		}
+  
+    jQuery('.pagination').append("<li><a class=\"prev\"> < </a></li>");
+  
+		for(var i=1; i<=num_pages; i++){
+			jQuery('.pagination').append("<li><a>"+i+"</a></li>");
+      jQuery('.pagination li:nth-child(2)').addClass("active");
+      jQuery('.pagination a').addClass("pagination-link");
+		}
+  
+    jQuery('.pagination').append("<li><a class=\"next\"> > </a></li>");
+  
+		$tr.each(function(i){
+      jQuery(this).hide();
+      if(i+1 <= req_num_row){
+				$tr.eq(i).show();
+			}
 		});
-
-		var container = document.getElementById('map'); //지도를 담을 영역의 DOM 레퍼런스
-var options = { //지도를 생성할 때 필요한 기본 옵션
-	center: new kakao.maps.LatLng(33.450701, 126.570667), //지도의 중심좌표.
-	level: 3 //지도의 레벨(확대, 축소 정도)
-};
-
-var map = new kakao.maps.Map(container, options); //지도 생성 및 객체 리턴
-
-function setCenter() {            
-    // 이동할 위도 경도 위치를 생성합니다 
-    var moveLatLon = new kakao.maps.LatLng(33.452613, 126.570888);
+  
+		jQuery('.pagination a').click('.pagination-link', function(e){
+			e.preventDefault();
+			$tr.hide();
+			var page=jQuery(this).text();
+			var temp=page-1;
+			var start=temp*req_num_row;
+      var current_link = temp;
+      
+      jQuery('.pagination li').removeClass("active");
+			jQuery(this).parent().addClass("active");
     
-    // 지도 중심을 이동 시킵니다
-    map.setCenter(moveLatLon);
-}
+			for(var i=0; i< req_num_row; i++){
+				$tr.eq(start+i).show();
+			}
+      
+      if(temp >= 1){
+        jQuery('.pagination li:first-child').removeClass("disabled");
+      }
+      else {
+        jQuery('.pagination li:first-child').addClass("disabled");
+      }
+            
+		});
+  
+    jQuery('.prev').click(function(e){
+        e.preventDefault();
+        jQuery('.pagination li:first-child').removeClass("active");
+    });
 
-function panTo() {
-    // 이동할 위도 경도 위치를 생성합니다 
-    var moveLatLon = new kakao.maps.LatLng(37.498764, 127.026581);
-    
-    // 지도 중심을 부드럽게 이동시킵니다
-    // 만약 이동할 거리가 지도 화면보다 크면 부드러운 효과 없이 이동합니다
-	map.panTo(moveLatLon); 
-}
+    jQuery('.next').click(function(e){
+        e.preventDefault();
+        jQuery('.pagination li:last-child').removeClass("active");
+    });
 
-var positions = [
-    {
-        title: '강남점', 
-        latlng: new kakao.maps.LatLng(37.498764, 127.026581)
-    },
-    {
-        title: '종로점', 
-        latlng: new kakao.maps.LatLng(37.572186, 126.987123)
-    },
-    {
-        title: '신촌점', 
-        latlng: new kakao.maps.LatLng(37.554444, 126.936588)
-    },
-    {
-        title: '구로점',
-        latlng: new kakao.maps.LatLng(37.503078, 126.878985)
-	},
-	{
-        title: '천호점',
-        latlng: new kakao.maps.LatLng(37.503078, 126.878985)
-	},
-	{
-        title: '안산점',
-        latlng: new kakao.maps.LatLng(37.317875, 126.835665)
-	},
-	{
-        title: '구로점',
-        latlng: new kakao.maps.LatLng(33.451393, 126.570738)
-    }
-];
+	}
 
-// 마커 이미지의 이미지 주소입니다
-var imageSrc = "https://t1.daumcdn.net/localimg/localimages/07/mapapidoc/markerStar.png"; 
-    
-for (var i = 0; i < positions.length; i ++) {
-    
-    // 마커 이미지의 이미지 크기 입니다
-    var imageSize = new kakao.maps.Size(24, 35); 
-    
-    // 마커 이미지를 생성합니다    
-    var markerImage = new kakao.maps.MarkerImage(imageSrc, imageSize); 
-    
-    // 마커를 생성합니다
-    var marker = new kakao.maps.Marker({
-        map: map, // 마커를 표시할 지도
-        position: positions[i].latlng, // 마커를 표시할 위치
-        title : positions[i].title, // 마커의 타이틀, 마커에 마우스를 올리면 타이틀이 표시됩니다
-        image : markerImage // 마커 이미지 
-	});
-}
+jQuery('document').ready(function(){
+	pagination();
+  
+  jQuery('.pagination li:first-child').addClass("disabled");
+  
+});
 	</script>
 </body>
 

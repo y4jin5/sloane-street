@@ -1,0 +1,68 @@
+img{
+    width: 100%;
+}
+.no-gutters{
+    padding-right: 0;
+    padding-left: 0;
+    background: #c8c8be;
+}
+.no-gutters>div{
+    width: 100%;
+    overflow: hidden;
+}
+.no-gutters>div>div{
+    padding-right: 0;
+    padding-left: 0;
+}
+.swiper-container{
+    background: #c8c8be;
+}
+.blog-box .col-sm-5{
+    width: 100%;
+    height: 100%;
+    overflow: hidden;
+}
+.swiper-container {
+    width: 100%;
+    height: 100vh;
+  }
+  .swiper-slide>div:first-child{
+    width: 100%;
+    overflow: hidden;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .swiper-slide img{
+      width: 150%;
+  }
+.main-pd{
+    background: url(../images/img-01.jpg);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+  .swiper-slide {
+    text-align: center;
+    font-size: 18px;
+    background: #fff;
+
+    /* Center slide text vertically */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+  }
+
+  .swiper-wrapper>div{
+    background-color: rgb(245, 245, 245);
+  }
+  
